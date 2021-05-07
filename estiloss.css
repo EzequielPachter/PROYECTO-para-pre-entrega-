@@ -585,11 +585,24 @@ footer a:hover{
 }
 
 .menu-de-abajo{
-    width: 20px;
+    width: 2px;
     height: 0px;
 }
 .ancho-de-primer-tabla{
     transform: translate(100px ,-210px);
+}
+.ancho-de-segunda-tabla{
+    transform: translate(250px ,-210px);
+}
+.menu-de-abajo{
+    list-style: circle;
+    color: white;
+}
+.menu-de-abajo ul li a{
+    color: black;
+}
+.menu-de-abajo ul li a:hover{
+    color: #ffb239;
 }
 @media screen and (max-width: 640px){
     .propiedades-en-el-index{
@@ -829,6 +842,9 @@ footer a:hover{
     .ancho-de-primer-tabla{
         transform: translate(70px ,-210px);
     }
+    .ancho-de-segunda-tabla{
+        transform: translate(180px ,-210px);
+    }
     /*MENU DE NAVEGACION*/
     .lista-de-navegacion{
         width: 250px;
@@ -838,6 +854,10 @@ footer a:hover{
 
     .se-va-el-cartel{
         display: none;
+    }
+
+    .menu{
+        transform: translateY(-20px);
     }
 }
 
