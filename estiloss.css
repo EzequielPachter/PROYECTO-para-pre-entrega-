@@ -604,6 +604,10 @@ footer a:hover{
 .menu-de-abajo ul li a:hover{
     color: #ffb239;
 }
+
+.menu{
+    transform: translateY(-20px);
+}
 @media screen and (max-width: 640px){
     .propiedades-en-el-index{
         display: flex;
