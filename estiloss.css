@@ -608,6 +608,28 @@ footer a:hover{
 .menu{
     transform: translateY(-20px);
 }
+
+/*CARTEL DE INFORMCION DE SI ES VENTA O ALQUILER*/
+.fondo-para-declarar-que-es{
+    height: 0px;
+}
+.fondo-para-declarar-VA{
+    width: 400px;
+    height: 90px;
+    transform:  translate(700px ,-90px) ;
+}
+.fondo-para-declarar-palabra{
+    width: 100px;
+    transform:  translate(740px ,-160px) ;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.declarar-valor{
+    width: 200px;
+    transform:  translate(870px ,-207px) ;
+    
+}
 @media screen and (max-width: 640px){
     .propiedades-en-el-index{
         display: flex;
@@ -709,7 +731,7 @@ footer a:hover{
 
     
 }
-/*TERMINA EL FORM*/
+
     
     /*CARRUSEL*/
     .FotosCarru{
@@ -863,5 +885,31 @@ footer a:hover{
     .menu{
         transform: translateY(-20px);
     }
+
+    /*CARTEL DE INFORMCION DE SI ES VENTA O ALQUILER*/
+    .fondo-para-declarar-que-es{
+        height: 20px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .fondo-para-declarar-VA{
+        width: 350px;
+        height: 100px;
+        transform:  translate(0px ,0px) ;
+    }
+    .fondo-para-declarar-palabra{
+        width: 100px;
+        transform:  translate(30px ,-80px) ;
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+    }
+    .declarar-valor{
+        width: 200px;
+        transform:  translate(150px ,-125px) ;
+        font-size: 30px;
+
+    }
+
 }
 
