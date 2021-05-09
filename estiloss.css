@@ -630,7 +630,11 @@ footer a:hover{
     transform:  translate(870px ,-207px) ;
     
 }
+.fragata-sarmiento{
+    transform: translate(80px ,20px);
+}
 @media screen and (max-width: 640px){
+    
     .propiedades-en-el-index{
         display: flex;
     }
@@ -909,6 +913,10 @@ footer a:hover{
         transform:  translate(150px ,-125px) ;
         font-size: 30px;
 
+    }
+    .fragata-sarmiento{
+        width: 280px;
+        transform: translate(50px ,20px);
     }
 
 }
