@@ -655,7 +655,14 @@ footer a:hover{
 }
 .descargar-ficha a{
     font-weight: bold;
+    color: black;
+}
+.descargar-ficha a:hover{
     color: white;
+    text-decoration: none;
+}
+.descargar-ficha-celular{
+    display: none;
 }
 @media screen and (max-width: 640px){
     
@@ -943,5 +950,52 @@ footer a:hover{
         transform: translate(50px ,20px);
     }
 
+    .ficha{
+        display: none;
+        width: 380px;
+        height: 100px;
+        transform: translate(0px ,1700px);
+        border-radius: 5px ;
+        box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        
+    }
+    .descargar-ficha{
+        display: none;
+        width: 200px;
+        background-color: #ffb239;
+        border-radius: 5px;
+        transform: translate(70px ,0px);
+        color: white;
+        
+    }
+    .descargar-ficha a{
+        display: none;
+        font-weight: bold;
+        color: white;
+    }
+
+    .descargar-ficha-celular{
+        display: flex;
+        width: 200px;
+        background-color: #ffb239;
+        border-radius: 5px;
+        transform: translate(70px ,0px);
+        color: white;
+    }
+    .descargar-ficha-celular a{
+        color: white;
+        text-decoration: none;
+        transform: translateX(20px);
+        font-size: 20px;
+    }
+    
+    .descargar-ficha-celular a:hover{
+        color: white;
+        text-decoration: none;
+        transform: translateX(20px);
+        font-size: 20px;
+    }
 }
 

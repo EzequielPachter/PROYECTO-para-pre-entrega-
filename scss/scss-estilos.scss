@@ -1,0 +1,1109 @@
+/*LO NUEVO AGREGADO*/
+nav{
+    position: sticky;
+}
+nav li a{
+    text-decoration: none;
+ 
+}
+
+.imgTasacion{
+    margin-top: 20px;
+}
+.logo{
+    width: 120px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+.color{
+    background-color: white;
+    color: white;
+    border: white solid 1px;
+}
+
+/*MEDIDAS DE LOOS DE REDES SOCIALES*/
+.insta{
+    height: 50px;
+    width: 50px;
+}
+
+.carru img{
+    height: 600px;
+    width: 200px;
+}
+.carru div h5{
+    transform: translateY(-200px);
+}
+.carru div p{
+    transform: translateY(-180px);
+}
+.carru div p img{
+    width: 600px;
+    height: 300px;
+    transform: translateY(center);
+}
+
+
+
+/*TERMINA EL CUADRO*/
+.FotosCarru{
+    width: 500px;
+    transform: translateX(-250px);
+}
+
+
+.carru{
+    transform: translate(0px ,20px);
+    width: 700px ;
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+.Carru img{
+    width: 600px;
+    height: 600px; 
+    transform: translateX(65px);  
+}
+.FotosCarru a span{
+    width: 30px;
+}
+
+.carru-yatay-728{
+    transform: translate(0px ,20px);
+    width: 700px ;
+    height: 600px;
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+.carru-yatay-728 img{
+    margin-top: 70px;
+    width: 650px;
+    height: 450px; 
+    transform: translateX(40px);  
+}
+.yatay-prev{
+    transform: translate(-30px ,30px);
+    color: black;
+}
+.yatay-next{
+    transform: translate(30px ,30px);
+}
+.FotosCarru a span{
+    width: 30px;
+}
+
+
+
+
+.foto img{
+    width: 500px;
+    height: 600px;
+}
+
+.VentaAlquiler{    
+    width: 100%;
+
+    display: flex;  
+    flex-flow:  row; 
+    justify-content: center; 
+    margin-left: 200px;
+}
+.VentaAlquiler article{
+    border: white 10px solid;
+    text-align: center;
+    background-color: #cccccc;
+    text-align: center;
+}
+.VentaAlquiler article p a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    
+    
+}
+.VentaAlquiler article .valor{
+    width: 300px;
+    border: white 0.5px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FotoVA{
+    width: 250px;
+    height: 300px;
+}
+
+.Descripcion{
+    border-radius: 5px;
+    border: black solid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Casita{
+    width: 30px;
+    height: 30px;    
+}
+.tasacion{
+    width: 500px;
+    height: 500px;
+    transform: translateX(70px);
+}
+
+.formulario{
+    border-top: solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #f8f9fa;   
+    
+}
+
+.seleccionDeBarrios{
+    width: 200px;
+    transform: translateX(450px);
+    
+}
+
+.formDeContacto{
+    background-color: rgba(209, 206, 206, 0.822);
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.tablaDeDescripcion{
+    font-size: 40px;
+    margin-top: 20px;
+    border-bottom: black solid 1px;
+    width: 700px;
+
+}
+.habitaciones ul li{
+    text-decoration: none;
+}
+.medidaDeDescripcion{
+        width: 700px;
+        
+}
+.tablaDeDetalles td{
+    width: 200px;
+}
+.AnchoDeLaTabla{
+    transform: translate(70px ,97px);
+}
+/*EDICION DEL FORM DE OCNTACTO*/
+
+
+.acomdarFormParaPC legend{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+}
+.texto textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    transform: translateX(25px);
+}
+.formDeContactoParaCELULAR{
+    display: none;
+}
+
+.mailDelForm input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border:black solid 1px ;
+    width: 300px;
+    height: 40px;
+    
+    transform: translateX(27px);  
+}
+
+.celularDelForm input{
+    margin-top: 35px;
+    border-radius: 5px;
+    border:black solid 1px ;
+    width: 300px;
+    height: 40px;
+    transform: translate(23px ,-38px);
+}
+
+.botonConsulta{
+    width: 300px;
+    margin-top: 20px;
+    
+}
+.botonConsulta input{
+    width: 300px;
+    height: 40px;
+    background-color: #ffb239;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+    transform: translateX(25px);
+    
+}
+.Form-te-amamos{
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    transform: translateX(30px);
+    width: 300px;
+    border-radius: 5px;
+    height: 400px;
+
+    
+}
+/*TERMINA EL FORM*/
+.check{
+    height: 20px;
+    width: 20px;
+}
+.habitacionesSinDecoracion{
+    list-style: none;
+}
+.moverAdicionales{
+    width: 200px;
+    transform: translate(350px, -95px);
+}
+.container-mi-estilo{
+    margin-top: 40px;
+    
+}
+.informacion-en-el-cuadro-principal{
+    transform: translate(110px ,50px);
+    width: 760px;
+    height: 1700px;
+    box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+}
+/*REDES SOCIALES*/
+.redes-arriba-de-cuadro-principal{
+    transform:translate(0px , 50px);
+    width: 760px;
+    height: 55px;
+    box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+}
+.redes-arriba{
+    transform: translateX(-12px);
+    height: 55px;
+
+    text-align: center;
+    background: #dddddd;
+}
+.red{
+    transform: translateY(13px);
+    font-size: 18px;
+    font-weight:bold;
+    
+}
+.redes-sociales{
+    transform: translate(180px ,-55px);
+    height: 55px;
+    border-right:solid 0.5px #dddddd;
+    text-align: center;
+    background: white;
+}
+.red-social{
+    transform: translateY( 13px);
+    text-decoration: none;
+}
+.red-social a{
+    color: #ffb239;
+    text-decoration: none;
+    
+}
+
+.red-social a:hover{
+    color: #ffb239; 
+    text-decoration: none;
+}
+.red-insta{
+    transform: translate(0px ,13px);
+    text-decoration: none;
+}
+.red-insta a{
+    color: #ffb239;
+    text-decoration: none;
+}
+.red-insta a:hover{
+    color: #ffb239;
+    text-decoration: none;
+}
+.redes-instagram{
+    transform: translate(374px ,-110px);
+    height: 55px;
+    border-right:solid 0.5px #dddddd;
+    text-align: center;
+    background: white;
+}
+.redes-facebook{
+    transform: translate(560px ,-165px);
+    height: 55px;
+    
+    text-align: center;
+    background: white;
+}
+.red-face{
+    transform: translate(0px ,13px);
+    text-decoration: none;
+}
+.red-face a{
+    color:  #ffb239;
+    text-decoration: none;
+}
+.red-face a:hover{
+    color:  #ffb239;
+    text-decoration: none;
+}
+/*CELULAR*/
+.redes-arriba-de-cuadro-principal-xs{
+    
+    display: none;
+   
+}
+.redes-arriba-xs{
+    
+    display: none;
+   
+    
+}
+
+.redes-sociales-xs{
+   
+    display: none;
+    
+}
+.red-social-xs{
+    display: none;
+
+}
+.redes-instagram-xs{
+    
+    display: none;
+    
+}
+.redes-facebook-xs{
+    
+    display: none;
+    
+    
+}
+
+/*FONDO DE VENTA ALQUILER*/
+.fondo-de-venta-alquiler{
+    width: 100%;       
+    display: flex;  
+    flex-flow:  row; 
+    justify-content: center; 
+    border-radius: 5px;
+
+    background-color: white;
+    box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+}
+.fondo-de-venta-alquiler img{
+    transform: translate(45px ,10px);
+}
+
+
+.direccion{
+    transform: translate(120px ,20px);
+}
+.direccion a{
+    color: #ffb239;
+    text-decoration: none;
+}
+.direccion a:hover{
+    color: #ffb239;
+    text-decoration: none;
+}
+.valor{
+    transform: translate(120px ,10px);
+}
+
+/*VENTAS EN EL NAV*/
+.ventas {
+    color: #ffb239;
+}
+
+/*propiedades destacadas en cada publicacion*/
+.caru-destacado{
+    width: 250px;
+    height: 350px;
+    
+    transform: translate(800px ,-1650px);
+    
+}
+.caru-destacado img{
+    width: 250px;
+    height: 350px;
+}
+.oportunidades{
+    text-align: center;
+    color: #ffb239;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+}
+
+
+
+.mapa{
+    transform: translateX(15px);
+}
+.mapa-mini{
+    display: none;
+}
+
+
+/*FONDO DE TODA LA PAGINA*/
+.footer{
+    margin-bottom: 0px;
+    transform: translate(0px ,-60px);
+    width:100%;
+    height: 200px;
+    background-color: #dddd;
+}
+.logo-del-footer{
+    transform: translate(20px ,120px);
+    width: 120px;
+    height: 40px;
+}
+.l-propiedades{
+    width: 200px;
+    transform: translate(160px ,90px);
+}
+.ezequiel-pachter{
+    width: 300px;
+    transform: translate(960px ,100px);
+    color: #ffb239;
+}
+
+
+.logo-ep{
+    width: 70px;
+    height: 70px;
+    transform: translate(1230px ,40px);
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.circulo-face {
+    transform: translate(15px ,50px);
+    width: 35px;
+    height: 35px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#3b5998;
+}
+.circulo-face:hover{
+    background-color: #ffb239;
+}
+
+.circulo-insta {
+    transform: translate(-25px ,10px);
+    width: 35px;
+    height: 35px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #E1306C;
+}
+.circulo-insta:hover{
+    background-color: #ffb239;
+}
+
+
+
+
+.circulo-wpp{
+    transform: translate(-65px ,90px);
+    width: 35px;
+    height: 35px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #00bb2d;
+    
+}
+.circulo-wpp:hover{
+    background: #ffb239;
+
+}
+.acomodar-propiedades-del-index{
+    margin-top: 150px;
+    transform: translateX(15px);
+}
+.propiedades-en-el-index{
+    display: none;
+}
+.botones-de-ventas-en-index{
+    transform: translate(0px ,-230px);
+}
+
+.propiedades-en-venta-destacadas{
+    transform: translate(120px ,120px);
+    width: 400px;
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+.propiedades-en-alquiler-destacadas{
+    display: none;
+}
+
+.lista-de-navegacion{
+    width: 300px;
+    transform: translate(130px ,0px);
+    margin-bottom: 10px;
+}
+
+.menu-de-abajo{
+    width: 2px;
+    height: 0px;
+}
+.ancho-de-primer-tabla{
+    transform: translate(100px ,-210px);
+}
+.ancho-de-segunda-tabla{
+    transform: translate(250px ,-210px);
+}
+.menu-de-abajo{
+    list-style: circle;
+    color: white;
+}
+.menu-de-abajo ul li a{
+    color: black;
+}
+.menu-de-abajo ul li a:hover{
+    color: #ffb239;
+}
+
+.menu{
+    background-color: none;
+    transform: translateY(-20px);
+}
+
+/*CARTEL DE INFORMCION DE SI ES VENTA O ALQUILER*/
+.fondo-para-declarar-que-es{
+    height: 0px;
+}
+.fondo-para-declarar-VA{
+    width: 400px;
+    height: 90px;
+    transform:  translate(700px ,-90px) ;
+}
+.fondo-para-declarar-palabra{
+    width: 100px;
+    transform:  translate(740px ,-160px) ;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.declarar-valor{
+    width: 200px;
+    transform:  translate(910px ,-207px) ;
+    
+    
+}
+.fragata-sarmiento{
+    transform: translate(80px ,20px);
+}
+.ficha{
+    width: 380px;
+    height: 100px;
+    transform: translate(790px ,-80px);
+    border-radius: 5px ;
+    box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    
+}
+.descargar-ficha{
+    width: 200px;
+    background-color: #ffb239;
+    border-radius: 5px;
+    transform: translate(70px ,0px);
+    color: white;
+    
+}
+.descargar-ficha a{
+    font-weight: bold;
+    color: white;
+}
+.descargar-ficha-celular{
+    display: none;
+}
+.footer-nosotros{
+    margin-top: 300px;
+}
+.recuadro-de-empleados{
+    margin-top: 50px;
+    width: 100px;
+    height: 150px;
+   
+
+    box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+}
+$lpropiedades: #ffb239;
+.color{
+    color: $lpropiedades;
+    font-weight: bold;
+}
+.forma-de-foto-de-empleados {
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+    transform: translate(0px ,-40px);
+
+    box-shadow: 2px 4px 22px -2px wheat;
+    -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    
+}
+$empleados: (
+        1: 80px,
+        2: 70px,
+        3: 70px,
+
+);
+@each $emple, $separacion in $empleados {
+    .emple-#{$emple}{
+        margin-left:  $separacion;
+    }
+}
+.nombre-de-empleado{
+    transform: translateX(130px);
+    color: $lpropiedades;
+}
+.titulo-de-visita{
+    margin-top: 100px;
+    margin-left: 100px;
+    border-bottom: solid 1px black;
+    width: 600px;
+    font-size: 22px;
+}
+.mapa-nosotros{
+    text-align: center;
+    
+}
+.mapa-nosotros-celu{
+    display: none;
+
+}
+@media screen and (max-width: 640px){
+    
+    .propiedades-en-el-index{
+        display: flex;
+    }
+    .carru-index-propiedades{
+        display: none;
+    }
+    .barrios{
+        display: none;
+    }
+    .cuadro{
+        margin-top: 20px;
+        transform: translateX(40px);
+    }
+    .tasacion{
+        transform: translateX(0px);
+        
+        margin-top: 10px;
+    }
+    .seleccionDeBarrios{
+        width: 200px;
+        transform: translateX(80px);
+        
+    }
+    .tablaDeDescripcion{
+        font-size: 40px;
+        margin-top: 20px;
+        border-bottom: black solid 1px;
+        width: 100%;
+        text-align: center;
+       
+    }
+    .medidaDeDescripcion{
+            width: 100%;
+            
+    }
+    .AnchoDeLaTabla{
+        transform: translate(0px ,-17px);
+    }
+/*EDICION DEL FORM DE CONTACTO EN ELCELULAR*/
+
+.acomdarFormParaPC legend{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+}
+.texto textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    transform: translateX(25px);
+}
+
+.mailDelForm input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border:black solid 1px ;
+    width: 300px;
+    height: 40px;
+    
+    transform: translateX(27px);  
+}
+
+.celularDelForm input{
+    margin-top: 35px;
+    border-radius: 5px;
+    border:black solid 1px ;
+    width: 300px;
+    height: 40px;
+    transform: translate(23px ,-38px);
+}
+
+.botonConsulta{
+    width: 300px;
+    margin-top: 20px;
+    
+}
+.botonConsulta input{
+    width: 300px;
+    height: 40px;
+    background-color: #ffb239;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+    transform: translateX(25px);
+    
+}
+.Form-te-amamos{
+    border-top: solid 2px #dddddd;
+    margin-top: 20px;
+    box-shadow:none;
+    transform: translate(0px ,1700PX);
+    width: 300px;
+    border-radius: 5px;
+    height: 400px;
+
+    
+}
+
+    
+    /*CARRUSEL*/
+    .FotosCarru{
+        width: 500px;
+        transform: translateX(0px);
+    }
+    .carru{
+        margin-top: 20px;
+        width: 100% ;
+        background-color: #dddddd;
+        border-radius: 5px;
+    }
+    .Carru img{
+        width: 600px;
+        height: 400px; 
+        transform: translate(0px ,-10px);  
+    }
+    .FotosCarru a span{
+        width: 30px;
+    }
+    .moverAdicionales{
+        width: none;
+        transform:none;
+    }
+    .informacion-en-el-cuadro-principal{
+        transform: translate(0px ,-450px);
+        width: 360px;
+        height: 1700px;
+        box-shadow:none;
+    }
+    /*REDES SOCIALES*/
+    .redes-arriba-de-cuadro-principal{
+       display: none;
+    }
+    .mapa{
+        display: none;
+    }
+    .mapa-mini{
+        display: flex;
+    }
+    /*PAGINA DE VENTAS*/
+
+    .fondo-de-venta-alquiler{
+        
+        
+        box-shadow:none;
+    }
+    .fondo-de-venta-alquiler img{
+        transform: translate(35px ,10px);
+    }
+    
+    
+    .direccion{
+        transform: translate(100px, 10px);
+        width: 180px;
+    }
+    .direccion a{
+        font-size: 22px;
+        color: #ffb239;
+        text-decoration: none;
+    }
+    .direccion a:hover{
+        color: #ffb239;
+        text-decoration: none;
+    }
+    .valor{
+        font-size: 18px;
+        width: 180px;
+    }
+    .fondo-para-el-celular{
+        margin-top: 10px;
+        transform: translateX(15px);
+        width: 10px;
+        height: 400px;
+        border-radius: 5px;
+        box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+
+    }
+    
+    /*VENTAS EN EL NAV*/
+    .ventas {
+        color: #ffb239;
+    }
+    
+    /*CARRU DESTACADO*/
+    .caru-destacado{
+        display: none;
+    }
+    .oportunidades{
+        display: none;
+    }
+
+    .ezequiel-pachter{
+        width: 270px;
+        transform: translate(100px ,100px);
+        color: #ffb239;
+    }
+    
+    
+    .logo-ep{
+        width: 70px;
+        height: 70px;
+        transform: translate(20px ,40px);
+    }
+
+    .propiedades-en-venta-destacadas{
+        width: 330px;
+        transform: translate(20px ,10px);
+        
+        font-size: 22px;
+        border-bottom: 1px solid black;
+    }
+    .propiedades-en-alquiler-destacadas{
+        display: flex;
+        width: 330px;
+        transform: translate(20px ,10px);
+        
+        font-size: 22px;
+        border-bottom: 1px solid black;
+    }
+    /*MENU DE ABAJO*/
+    .lista-de-navegacion{
+        width: 300px;
+        transform: translate(130px ,0px);
+        margin-bottom: 10px;
+    }
+    
+    .menu-de-abajo{
+        width: 20px;
+        height: 0px;
+    }
+    .ancho-de-primer-tabla{
+        transform: translate(70px ,-210px);
+    }
+    .ancho-de-segunda-tabla{
+        transform: translate(180px ,-210px);
+    }
+    /*MENU DE NAVEGACION*/
+    .lista-de-navegacion{
+        width: 250px;
+        transform: translate(10px ,10px);
+        margin-bottom: 5px;
+    }
+
+    .se-va-el-cartel{
+        display: none;
+    }
+
+    .menu{
+        transform: translateY(-20px);
+    }
+
+    /*CARTEL DE INFORMCION DE SI ES VENTA O ALQUILER*/
+    .fondo-para-declarar-que-es{
+        height: 20px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .fondo-para-declarar-VA{
+        width: 350px;
+        height: 100px;
+        transform:  translate(0px ,0px) ;
+    }
+    .fondo-para-declarar-que-es .fondo-para-declarar-palabra{
+        width: 40px;
+        transform:  translate(30px ,-80px) ;
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+    }
+    .declarar-valor{
+        width: 30px;
+        transform:  translate(205px ,-125px) ;
+        font-size: 30px;
+
+    }
+    .fragata-sarmiento{
+        width: 280px;
+        transform: translate(50px ,20px);
+    }
+
+    .carru-yatay-728{
+        margin-top: 20px;
+        width: 100% ;
+        height: 300px;
+        background-color: #dddddd;
+        border-radius: 5px;
+    }
+    .carru-yatay-728 img{
+        width: 600px;
+        height: 200px; 
+        transform: translate(0px ,-20px);  
+    }
+    
+    .FotosCarru a span{
+        width: 30px;
+    }
+
+    .ficha{
+        display: none;
+    }
+    .descargar-ficha-celular{
+        display: flex;
+        width: 200px;
+        background-color: #ffb239;
+        border-radius: 5px;
+        transform: translate(70px ,0px);
+        color: white;
+    }
+    .descargar-ficha-celular a{
+        color: white;
+        text-decoration: none;
+        transform: translateX(20px);
+        font-size: 20px;
+    }
+    
+    .descargar-ficha-celular a:hover{
+        color: white;
+        text-decoration: none;
+        transform: translateX(20px);
+        font-size: 20px;
+    }
+
+    /*RECUADRO DE EMPLEADOS*/
+    .recuadro-de-empleados{
+        margin-top: 50px;
+        width: 0px;
+        height: 150px;
+        box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+    }
+    
+    .color{
+        color: $lpropiedades;
+        font-weight: bold;
+    }
+    .forma-de-foto-de-empleados {
+        width: 70px;
+        height: 70px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        box-shadow: 2px 4px 22px -2px wheat;
+        -webkit-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        -moz-box-shadow: 2px 4px 22px -2px rgba(0,0,0,0.55);
+        transform: translate(0px ,-40px);
+        
+    }
+    $empleados: (
+            1: 0px,
+            2: 0px,
+            3: 0px,
+    
+    );
+    @each $emple, $separacion in $empleados {
+        .emple-#{$emple}{
+            margin-left:  $separacion;
+        }
+    }
+    .nombre-de-empleado{
+        width: 90px;
+        transform: translateX(130px);
+        color: $lpropiedades;
+    }
+
+
+    .titulo-de-visita{
+        margin-top: 100px;
+        margin-left: 0px;
+        border-bottom: solid 1px black;
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .mapa-nosotros{
+        display: none;
+    }
+    .mapa-nosotros-celu{
+        display: flex;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+
